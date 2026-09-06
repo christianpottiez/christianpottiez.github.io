@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520">
-<style>.t{font-family:Arial,Helvetica,sans-serif;fill:#1F2A2A}.muted{fill:#74807F}.s{fill:#F4F7F4;stroke:#C9D4CA;stroke-width:2}.a{fill:#E8EEE9;stroke:#778F7D;stroke-width:2}</style>
+<style>.t{font-family:Arial,Helvetica,sans-serif;fill:#05111C}.muted{fill:#384858}.s{fill:#F7F8F6;stroke:#CBDCD0;stroke-width:2}.a{fill:#CBDCD0;stroke:#73907F;stroke-width:2}</style>
 <text x="600" y="58" text-anchor="middle" class="t" font-size="30" font-weight="700">PDXS questionnaire architecture</text>
 <rect x="120" y="120" width="720" height="260" rx="30" class="a"/>
 <text x="480" y="200" text-anchor="middle" class="t" font-size="50" font-weight="700">80%</text>

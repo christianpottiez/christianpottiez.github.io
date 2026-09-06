@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 420">
-<style>.t{font-family:Arial,Helvetica,sans-serif;fill:#1F2A2A}.muted{fill:#74807F}.ai{fill:#E8EEE9;stroke:#778F7D;stroke-width:2}.human{fill:#fff;stroke:#C9D4CA;stroke-width:2}.l{stroke:#C9D4CA;stroke-width:3}.a{stroke:#778F7D;stroke-width:5}</style>
+<style>.t{font-family:Arial,Helvetica,sans-serif;fill:#05111C}.muted{fill:#384858}.ai{fill:#CBDCD0;stroke:#73907F;stroke-width:2}.human{fill:#fff;stroke:#CBDCD0;stroke-width:2}.l{stroke:#CBDCD0;stroke-width:3}.a{stroke:#73907F;stroke-width:5}</style>
 <text x="70" y="80" class="t" font-size="24" font-weight="700">AI-supported</text>
 <line x1="250" y1="72" x2="760" y2="72" class="a"/>
 <text x="70" y="335" class="t" font-size="24" font-weight="700">Researcher-led</text>

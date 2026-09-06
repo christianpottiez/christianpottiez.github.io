@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 360">
-<style>.t{font-family:Arial,Helvetica,sans-serif;fill:#1F2A2A}.muted{fill:#74807F}.c{fill:#F4F7F4;stroke:#C9D4CA;stroke-width:2}.accent{fill:#E8EEE9;stroke:#778F7D;stroke-width:2}.l{stroke:#C9D4CA;stroke-width:3}</style>
+<style>.t{font-family:Arial,Helvetica,sans-serif;fill:#05111C}.muted{fill:#384858}.c{fill:#F7F8F6;stroke:#CBDCD0;stroke-width:2}.accent{fill:#CBDCD0;stroke:#73907F;stroke-width:2}.l{stroke:#CBDCD0;stroke-width:3}</style>
 <line x1="110" y1="180" x2="1290" y2="180" class="l"/>
 <g font-size="16" text-anchor="middle">
 <circle cx="120" cy="180" r="34" class="c"/><text x="120" y="185" class="t">Explore</text>
@@ -10,6 +10,6 @@
 <circle cx="1130" cy="180" r="38" class="c"/><text x="1130" y="185" class="t">Purchase</text>
 <circle cx="1300" cy="180" r="38" class="c" opacity=".45"/><text x="1300" y="174" class="muted">Ownership</text><text x="1300" y="197" class="muted" font-size="13">beyond scope</text>
 </g>
-<path d="M500 112c115-64 316-64 430 0" fill="none" stroke="#778F7D" stroke-width="2" stroke-dasharray="7 7"/>
+<path d="M500 112c115-64 316-64 430 0" fill="none" stroke="#73907F" stroke-width="2" stroke-dasharray="7 7"/>
 <text x="715" y="72" text-anchor="middle" class="muted" font-family="Arial" font-size="15">Same touchpoint, different job in the journey</text>
 </svg>
