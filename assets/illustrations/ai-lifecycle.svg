@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 420">
+<style>.t{font-family:Arial,Helvetica,sans-serif;fill:#1F2A2A}.muted{fill:#74807F}.ai{fill:#E8EEE9;stroke:#778F7D;stroke-width:2}.human{fill:#fff;stroke:#C9D4CA;stroke-width:2}.l{stroke:#C9D4CA;stroke-width:3}.a{stroke:#778F7D;stroke-width:5}</style>
+<text x="70" y="80" class="t" font-size="24" font-weight="700">AI-supported</text>
+<line x1="250" y1="72" x2="760" y2="72" class="a"/>
+<text x="70" y="335" class="t" font-size="24" font-weight="700">Researcher-led</text>
+<line x1="250" y1="327" x2="1320" y2="327" class="l"/>
+<g font-family="Arial" font-size="15" text-anchor="middle">
+<rect x="90" y="145" rx="20" width="155" height="80" class="ai"/><text x="168" y="184" class="t">Briefing</text><text x="168" y="205" class="muted">AI-assisted</text>
+<rect x="275" y="145" rx="20" width="155" height="80" class="ai"/><text x="353" y="184" class="t">Research Design</text><text x="353" y="205" class="muted">AI-assisted</text>
+<rect x="460" y="145" rx="20" width="155" height="80" class="ai"/><text x="538" y="177" class="t">Questionnaire</text><text x="538" y="198" class="t">/ Guide</text><text x="538" y="218" class="muted">AI-assisted</text>
+<rect x="645" y="145" rx="20" width="155" height="80" class="human"/><text x="723" y="184" class="t">Programming</text><text x="723" y="205" class="muted">classic workflow</text>
+<rect x="830" y="145" rx="20" width="155" height="80" class="ai"/><text x="908" y="184" class="t">Analysis</text><text x="908" y="205" class="muted">AI-assisted</text>
+<rect x="1015" y="145" rx="20" width="155" height="80" class="human"/><text x="1093" y="184" class="t">Interpretation</text><text x="1093" y="205" class="muted">researcher-led</text>
+<rect x="1200" y="145" rx="20" width="155" height="80" class="human"/><text x="1278" y="184" class="t">Communication</text><text x="1278" y="205" class="muted">researcher-led</text>
+</g>
+</svg>

@@ -1,0 +1,18 @@
+{
+  "site": "Christian Pottiez UX Research Portfolio",
+  "status": "prototype",
+  "design": "Slate & Sage",
+  "pages": [
+    "/",
+    "/work/researchops/",
+    "/work/purchase-journey/",
+    "/work/ai-research/",
+    "/work/pdxs/",
+    "/share/?company=Ramboll"
+  ],
+  "media_to_add_later": [
+    "portrait",
+    "purchase journey reconstructed slides",
+    "AI synthetic-data demo video"
+  ]
+}
