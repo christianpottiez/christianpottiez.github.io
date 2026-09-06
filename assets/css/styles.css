@@ -51,6 +51,7 @@ h1{font-size:clamp(3.1rem,6vw,6.25rem);line-height:.98;letter-spacing:-.058em;ma
 .about-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:76px;align-items:start}.portrait{border-radius:32px;border:1px solid var(--line);background:var(--sage-bg)}
 .about h2{font-size:clamp(2.5rem,4vw,4.2rem);line-height:1;letter-spacing:-.05em;margin:0 0 32px}.about p{font-size:1.07rem;color:var(--slate);line-height:1.78;margin:0 0 20px}
 .contact{padding:100px 0;background:linear-gradient(120deg,var(--ink) 0%,var(--slate) 100%);color:#fff}.contact-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:62px;align-items:end}.contact h2{font-size:clamp(2.6rem,5vw,5rem);line-height:1;letter-spacing:-.052em;margin:0}.contact p{color:var(--blue-soft);line-height:1.7;margin:0}
+.contact-details{display:grid;gap:10px;margin:28px 0 0}.contact-details div{display:grid;grid-template-columns:76px minmax(0,1fr);gap:16px;padding-top:10px;border-top:1px solid rgba(255,255,255,.18)}.contact-details dt{color:var(--sage-2);font-size:.7rem;font-weight:760;letter-spacing:.13em;text-transform:uppercase}.contact-details dd{margin:0;color:#fff;overflow-wrap:anywhere}
 .footer{padding:26px 0;background:var(--ink);border-top:1px solid rgba(255,255,255,.12);color:var(--blue-soft);font-size:.76rem}
 
 .case-hero{padding:102px 0 72px}.case-hero h1{max-width:1030px}.case-lede{font-size:1.16rem;line-height:1.72;color:var(--slate);max-width:830px;margin:30px 0 0}
