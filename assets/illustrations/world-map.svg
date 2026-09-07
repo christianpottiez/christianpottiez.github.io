@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430">
+<defs><pattern id="dots" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.25" fill="#73907F" opacity=".48"/></pattern></defs>
+<g fill="url(#dots)" stroke="#CBDCD0" stroke-width="1">
+<path d="M82 86l56-33 95 10 49 38-13 31-43 1-18 33-39 6-28 42-23-23-11-48-39-19z"/>
+<path d="M224 213l40 16 30 53-17 91-32 34-18-58-21-47 9-44z"/>
+<path d="M407 82l52-25 58 15 29-13 32 17 20-8 43 32 70 10 32 37-43 31-61-3-31 26-44-1-19-25-52-14-39-37-53-5-25-28z"/>
+<path d="M480 177l70 16 40 42-17 89-36 64-42-35-18-64-37-49z"/>
+<path d="M700 294l57-18 48 26 7 43-35 31-63-16-29-31z"/>
+<path d="M333 51l28-17 26 13-17 22z"/>
+</g></svg>
