@@ -87,3 +87,16 @@
 .cs-slide-canvas>.cs-lightbox-trigger>img{border-radius:0}
 .cs-slide-callout,.cs-slide-callout-line{pointer-events:none}
 @media(max-width:700px){.cs-proof-carousel-head{align-items:flex-end}.cs-proof-carousel-head p{max-width:180px}.cs-proof-track{grid-auto-columns:92%}.cs-proof-carousel-controls button{width:34px;height:34px}}
+.cs-slide-canvas,.image-lightbox-stage{container-type:inline-size}
+.image-lightbox-stage{position:relative}
+.image-lightbox-overlay{position:absolute;inset:0;pointer-events:none}
+.cs-slide-callout{top:auto;right:auto;bottom:auto;box-sizing:border-box;padding:1.15% 1.35%;background:rgba(247,250,246,.99)}
+.cs-slide-callout strong{font-size:clamp(.4rem,1.05cqw,.75rem);line-height:1.15}
+.cs-slide-callout span{font-size:clamp(.5rem,1.5cqw,1.05rem);font-weight:650;line-height:1.28}
+.cs-callout-pos-1{left:5.2%;top:34.7%;width:18.5%;min-height:20.7%}
+.cs-callout-pos-2{left:19.3%;top:36.2%;width:19%;min-height:18.1%}
+.cs-callout-pos-3{left:6.3%;bottom:8.4%;width:28%}
+.cs-callout-pos-4{left:56.9%;top:52%;width:24%;min-height:28%}
+.cs-callout-pos-5{left:79.2%;top:38.2%;width:18.2%;min-height:14.2%}
+.cs-callout-pos-6{left:45%;top:37.4%;width:22.2%;min-height:22.8%}
+.cs-callout-pos-7{left:74.9%;top:4.5%;width:22.1%;min-height:15.4%}

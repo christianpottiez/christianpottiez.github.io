@@ -22,13 +22,17 @@ if (lightboxTriggers.length) {
   lightbox.innerHTML = `
     <button class="image-lightbox-close" type="button" aria-label="Close enlarged image">×</button>
     <figure>
-      <img src="" alt="">
+      <div class="image-lightbox-stage">
+        <img src="" alt="">
+        <div class="image-lightbox-overlay" aria-hidden="true"></div>
+      </div>
       <figcaption></figcaption>
     </figure>
   `;
   document.body.appendChild(lightbox);
 
   const lightboxImage = lightbox.querySelector('img');
+  const lightboxOverlay = lightbox.querySelector('.image-lightbox-overlay');
   const lightboxCaption = lightbox.querySelector('figcaption');
   const closeButton = lightbox.querySelector('.image-lightbox-close');
   let activeTrigger = null;
@@ -39,6 +43,8 @@ if (lightboxTriggers.length) {
       activeTrigger = trigger;
       lightboxImage.src = sourceImage.currentSrc || sourceImage.src;
       lightboxImage.alt = sourceImage.alt;
+      const sourceCallout = trigger.parentElement.querySelector('.cs-slide-callout');
+      lightboxOverlay.replaceChildren(...(sourceCallout ? [sourceCallout.cloneNode(true)] : []));
       lightboxCaption.textContent = trigger.dataset.caption || sourceImage.alt;
       lightbox.showModal();
       closeButton.focus();
@@ -51,6 +57,7 @@ if (lightboxTriggers.length) {
   });
   lightbox.addEventListener('close', () => {
     lightboxImage.src = '';
+    lightboxOverlay.replaceChildren();
     activeTrigger?.focus();
   });
 }
