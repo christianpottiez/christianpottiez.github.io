@@ -54,3 +54,41 @@ if (lightboxTriggers.length) {
     activeTrigger?.focus();
   });
 }
+
+document.querySelectorAll('[data-carousel]').forEach(carousel => {
+  const track = carousel.querySelector('[data-carousel-track]');
+  const slides = [...track.children];
+  const previousButton = carousel.querySelector('[data-carousel-prev]');
+  const nextButton = carousel.querySelector('[data-carousel-next]');
+  const indexLabel = carousel.querySelector('[data-carousel-index]');
+  let activeIndex = 0;
+  let scrollFrame = null;
+
+  const updateControls = () => {
+    const slide = slides[0];
+    if (!slide) return;
+    const gap = parseFloat(getComputedStyle(track).columnGap) || 0;
+    const step = slide.getBoundingClientRect().width + gap;
+    activeIndex = Math.max(0, Math.min(slides.length - 1, Math.round(track.scrollLeft / step)));
+    indexLabel.textContent = `${activeIndex + 1} / ${slides.length}`;
+    previousButton.disabled = activeIndex === 0;
+    nextButton.disabled = activeIndex === slides.length - 1;
+  };
+
+  const moveTo = index => {
+    const slide = slides[0];
+    if (!slide) return;
+    const gap = parseFloat(getComputedStyle(track).columnGap) || 0;
+    const step = slide.getBoundingClientRect().width + gap;
+    track.scrollTo({ left: step * Math.max(0, Math.min(slides.length - 1, index)), behavior: 'smooth' });
+  };
+
+  previousButton.addEventListener('click', () => moveTo(activeIndex - 1));
+  nextButton.addEventListener('click', () => moveTo(activeIndex + 1));
+  track.addEventListener('scroll', () => {
+    if (scrollFrame) cancelAnimationFrame(scrollFrame);
+    scrollFrame = requestAnimationFrame(updateControls);
+  }, { passive: true });
+  window.addEventListener('resize', updateControls);
+  updateControls();
+});
